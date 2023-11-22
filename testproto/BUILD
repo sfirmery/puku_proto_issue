@@ -1,5 +1,9 @@
 proto_library(
-    name = "testproto",
+    name = "pb",
     srcs = ["testproto.proto"],
-    visibility = ["PUBLIC"],
+)
+
+go_library(
+    name = "testproto",
+    srcs = ["testproto.go"],
 )

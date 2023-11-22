@@ -15,6 +15,7 @@ preloadsubincludes = ///go_proto//build_defs:go_proto
 
 [Plugin "go"]
 Target = //plugins:go
+ImportPath = github.com/sfirmery/puku_proto_issue
 
 [Plugin "proto"]
 Target = //plugins:proto
